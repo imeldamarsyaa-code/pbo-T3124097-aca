@@ -11,6 +11,7 @@ class Mahasiswa {
         $this->prodi = $prodi;
     }
 
+
     public function getProfile() {
         return "[$this->nim] $this->nama - $this->prodi";
     }
